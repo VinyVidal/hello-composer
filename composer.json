@@ -1,0 +1,17 @@
+{
+    "name": "vinyvidal/hello-composer",
+    "description": "Test composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VinyVidal",
+            "email": "vinicius.vidalp@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Vinyvidal\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
